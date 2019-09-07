@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("shashi0256/hellonode")
+        app = docker.build("/Users/Shared/Jenkins/Home/workspace/Jenkins_pipeline")
     }
 
     stage('Test image') {
